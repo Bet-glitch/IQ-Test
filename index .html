@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="home">
+            <h1>IQ Test</h1>
+            <button id="start">Start Now</button>
+        </div>
+        <div id="levelSelection" class="hidden">
+            <h2>Pick A Level</h2>
+            <button class="level-button" data-level="outstanding">Outstanding Student</button>
+            <button class="level-button" data-level="good">Good Student</button>
+            <button class="level-button" data-level="average">Average Student</button>
+        </div>
+        <div id="questions" class="hidden">
+            <div id="questionContainer"></div>
+            <button id="submit">Submit Answers</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Your Score</h2>
+            <p id="scoreMessage"></p>
+            <button id="retake">Retake the Test</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
